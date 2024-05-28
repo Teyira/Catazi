@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .navbar{
+      display: flex;
+      margin-top: 0;
+      width: 100%;
+      background-color: black;
+      padding: 3rem 0;
+  }
+  nav ul{
+      display: flex;
+      list-style: none; 
+      margin: auto;
+      transform: scale(1);
+      transition: .2s ease-in-out;
+  }
+  .sticky ul{
+    transform: scale(0);
+  }
+  .navbar a{
+      text-decoration: none;
+      margin-left: 2.5rem;
+      color: white;
+      font-weight: 700;
+      font-size: 20px;
+  }
+  .navbar a:hover{
+      color:#9ADE7B;
+  }
+  a i{
+      color: white;
+      font-size: 16px;
+      margin-right: 5px;
+  }
+  .menu{
+      position: absolute;
+      right: 1.5rem;
+  }
+  .menu:hover{
+      cursor: pointer;
+  }
+  .logo{
+      position: absolute;
+      padding: 2rem;
+      background-color: white;
+      top: -1rem;
+      left: 1px;
+      color: #9ADE7B;
+      border-top-right-radius: 100px;
+      border-bottom-right-radius: 100px;
+      font-weight: 700;
+      z-index: 1;
+      font-size: 20px;
+      border: 1px solid rgb(49, 49, 66);
+      border-left: none;
+  }
+  .services a, .navbar i{
+    color: #9ADE7B;
+  }
+  
+  .gas-delivery, .retail, .cylinder-cal, .cylinder-sales, .acessory-sales, .safet-wares, .corrosion-protection{
+    border: 1px solid;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+  }
+  .header{
+    width: 100%;
+    height: 20rem;
+  }
+  .header-img img{
+    width: 100%;
+    height: 18rem;
+    
+  }
+
+  .content{
+    display: flex;
+    margin-top: 1rem;
+  }
+  .service{
+    flex-basis: 60%;
+    /* border: 1px solid; */
+    padding: 1rem;
+  }
+  .sidebar{
+    flex-basis: 30%;
+    /* border: 1px solid; */
+  }
+
+.topic{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 50rem;
+    padding-left: 3rem;
+}
+.topic i{
+  color: #9ADE7B;
+}
+.topic h1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    margin-bottom: .5rem;
+    letter-spacing: 2px;
+}
+
+.topic img{
+    width: 100%;
+    height: 20rem;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.topic p {
+    margin-bottom: 2rem;
+}
